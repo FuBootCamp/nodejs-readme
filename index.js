@@ -2,53 +2,75 @@
 
 // loading nmp inquierer and file system
 const inquirer = require("inquirer");
+const licenseModule = require("./licenseMod.js")
 const fs = require("fs");
 
 // a function for the questions
 const questions = [
   {
     type: "input",
-    message: "Project Title",
+    message: "Project Title:",
     name: "projectTitle",
   },
   {
+    type: "list",
+    message: "Select license:",
+    name: "licenseOption",
+    choices: ['MIT', 'Apache', 'BlueOak', 'Mozilla'],  
+  },
+  {
     type: "input",
-    message: "Description",
+    message: "Description:",
     name: "projectDescription",
   },
   {
     type: "input",
-    message: "Installation instructions",
+    message: "Installation instructions:",
     name: "installationInstructions",
   },
   {
     type: "input",
-    message: "Usage information",
+    message: "Usage information:",
     name: "usageInformation",
   },
   {
     type: "input",
-    message: "Contribution guidelines",
+    message: "Contribution guidelines:",
     name: "contributionGuidelines",
   },
   {
     type: "input",
-    message: "Test instructions",
+    message: "Test instructions:",
     name: "testInstructions",
+  },
+  {
+    type: "input",
+    message: "GitHub user name:",
+    name: "githubUsername",
+  },
+  {
+    type: "input",
+    message: "eMail address:",
+    name: "emailAddress",
   },
 ];
 
 // a function to generate the md file 
-function generateMarkdown(data) {
+function generateMarkdown(data,text,label) {
   return `
-# Title of the project
-${data.projectTitle}
+#
+# ${data.projectTitle}
+######
+![Static Badge]${label}
+###
 ## Table of contents
 * [Description of the project](#description-section)
 * [Installation instructions](#installation-section)
 * [Usage information](#usage-section)
 * [Contribution guidelines](#contribution-section)
 * [Test instructions](#test-section)
+* [Questions](#questions-section)
+* [License notes](#license-section)
 <a id="description-section"></a>
 ## Description of the project
 ${data.projectDescription}
@@ -64,16 +86,29 @@ ${data.contributionGuidelines}
 <a id="test-section"></a>
 ## Test instructions
 ${data.testInstructions}
+<a id="questions-section"></a>
+## Questions
+${data.githubUsername}
+######
+${data.emailAddress}
+<a id="license-section"></a>
+## License information
+#### ${data.licenseOption}
+${text}
 `;
 }
 
-// inquirer call
-inquirer.prompt(questions)
-    .then((answers) => {
-            fs.writeFile("README09.md", generateMarkdown(answers), (error) => {
-            if (error) {
-                console.log(error);
-                }
-            });  
-    });
-    
+function init() {
+    inquirer.prompt(questions)
+        .then( (answers) => {
+            var text = licenseModule.textofLicense(answers.licenseOption);
+            var bagdeLabel = `(https://img.shields.io/badge/license_by-${answers.licenseOption}-blue.svg)`;
+             fs.writeFile("README09.md", generateMarkdown(answers,text,bagdeLabel), (error) => {
+             if (error) {
+                 console.log(error);
+                 };
+             });  
+        });
+};
+
+init();
