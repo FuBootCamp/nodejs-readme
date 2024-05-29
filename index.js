@@ -70,7 +70,7 @@ function generateMarkdown(data,text,label) {
 * [Contribution guidelines](#contribution-section)
 * [Test instructions](#test-section)
 * [Questions](#questions-section)
-* [License notes](#license-section)
+* [License information](#license-section)
 <a id="description-section"></a>
 ## Description of the project
 ${data.projectDescription}
@@ -88,12 +88,18 @@ ${data.contributionGuidelines}
 ${data.testInstructions}
 <a id="questions-section"></a>
 ## Questions
-${data.githubUsername}
+If you have any doubts, please contact me...
+######
+This is my GitHub profile
+######
+[GitHub](https://github.com/${data.githubUsername})
+######
+This is my email address
 ######
 ${data.emailAddress}
+####
 <a id="license-section"></a>
-## License information
-#### ${data.licenseOption}
+#### License information
 ${text}
 `;
 }

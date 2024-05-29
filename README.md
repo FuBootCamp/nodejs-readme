@@ -1,2 +1,9 @@
 # nodejs-readme
-Challenge 7 a readme generator with nodejs
+Challenge 9 a readme generator with nodejs
+
+
+link for the video
+
+https://drive.google.com/file/d/1uM6Xp3TiZQ0yLw-jWO4soexfsZSJvsrv/view
+
+https://drive.google.com/file/d/1uM6Xp3TiZQ0yLw-jWO4soexfsZSJvsrv/view

@@ -2,8 +2,7 @@
 
 function textofLicense(licenseName) {
         switch (licenseName) {
-            case "MIT":
-                console.log('En el case IMT');                
+            case "MIT":                
                 var licenseText = `The MIT License
                                 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
                                 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES

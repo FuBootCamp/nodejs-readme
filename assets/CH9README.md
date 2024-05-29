@@ -25,4 +25,9 @@ The MIT License was first developed at the Massachusetts Institute of Technology
 <a id="questions-section"></a>
 ## Questions
 
+This is my email address
+buzonplataforma12@gmail.com
+
+This is my GituHub profile
+[GitHub_Profile](https://github.com/FuBootCamp)
 
