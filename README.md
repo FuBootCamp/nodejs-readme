@@ -29,6 +29,8 @@ A great learning from this challenge is to read and understand all the documenta
 node index.js
 <a id="usage-section"></a>
 ## Usage information
+
+Link for the walkthrough
 https://drive.google.com/file/d/1uM6Xp3TiZQ0yLw-jWO4soexfsZSJvsrv/view
 
 An image of the terminal screen with all the inputs charged
@@ -40,7 +42,9 @@ An image of the terminal screen with all the inputs charged
 Not applicable
 <a id="test-section"></a>
 ## Test instructions
-Not applicable
+The name of the file generated  with the CLI application is README09.md
+and there is in the repo
+
 <a id="questions-section"></a>
 ## Questions
 If you have any doubts, please contact me...
