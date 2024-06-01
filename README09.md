@@ -1,8 +1,8 @@
 
 #
-# README Generator
+# Professional README Generator
 ######
-![Static Badge](https://img.shields.io/badge/license_by-Mozilla-blue.svg)
+![Static Badge](https://img.shields.io/badge/license_by-Apache-blue.svg)
 ###
 ## Table of contents
 * [Description of the project](#description-section)
@@ -14,19 +14,19 @@
 * [License information](#license-section)
 <a id="description-section"></a>
 ## Description of the project
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+The main motivation is to put into practice what is related to the Node.js environment through which JavaScript programs can be executed outside the browser, which I consider a first step towards the development of the backend. Also using a command line application (CLI) to obtain from the “user” certain information, and then process it and generate a result, in this case a MarkDown format file
 <a id="installation-section"></a>
 ## Installation instructions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Not applicable
 <a id="usage-section"></a>
 ## Usage information
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Not applicable
 <a id="contribution-section"></a>
 ## Contribution guidelines
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Not applicable
 <a id="test-section"></a>
 ## Test instructions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Go to GitHub repo and check the README09.md file. 
 <a id="questions-section"></a>
 ## Questions
 If you have any doubts, please contact me...
@@ -41,14 +41,13 @@ buzonplataforma12@gmail.com
 ####
 <a id="license-section"></a>
 #### License information
-Mozilla Public License 2.0
-                                Covered Software is provided under this License on an “as is” basis,
-                                without warranty of any kind, either expressed, implied, or statutory,
-                                including, without limitation, warranties that the Covered Software is
-                                free of defects, merchantable, fit for a particular purpose or non-infringing.
-                                The entire risk as to the quality and performance of the Covered Software is
-                                with You. Should any Covered Software prove defective in any respect,
-                                You (not any Contributor) assume the cost of any necessary servicing, repair, 
-                                or correction. This disclaimer of warranty constitutes an essential part of this 
-                                License. No use of any Covered Software is authorized under this License except
-                                under this disclaimer.
+Apache License, Version 2.0
+                                Licensed under the Apache License, Version 2.0 (the "License");
+                                you may not use this file except in compliance with the License.
+                                You may obtain a copy of the License at 
+                                http://www.apache.org/licenses/LICENSE-2.0
+                                Unless required by applicable law or agreed to in writing, software
+                                distributed under the License is distributed on an "AS IS" BASIS,
+                                WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+                                See the License for the specific language governing permissions and
+                                limitations under the License.
